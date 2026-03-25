@@ -1,0 +1,93 @@
+.hero-img{
+animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+transform: translateY(0px);
+}
+
+50%{
+transform: translateY(-15px);
+}
+
+100%{
+transform: translateY(0px);
+}
+
+}
+
+.hero-img{
+animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+100%{transform:translateY(0)}
+}
+
+
+/* skills */
+
+.skill-bar{
+background:#ddd;
+height:10px;
+border-radius:10px;
+margin-bottom:20px;
+overflow:hidden;
+}
+
+.skill-progress{
+height:10px;
+animation: fillBar 2s forwards;
+}
+
+.react{width:90%;background:#61dafb;}
+.node{width:85%;background:#3c873a;}
+.mongo{width:80%;background:#4db33d;}
+.js{width:90%;background:#f7df1e;}
+
+@keyframes fillBar{
+0%{width:0}
+}
+
+
+/* project hover */
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+
+/* dark mode */
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .card{
+background:#1e1e1e;
+color:white;
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .card{
+background:#1e1e1e;
+color:white;
+}
+
+.dark .navbar{
+background:#000 !important;
+}
