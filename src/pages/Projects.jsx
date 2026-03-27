@@ -19,7 +19,7 @@ github: "#"
 {
 title: "Food Website",
 desc: "Responsive food ordering website UI.",
-live: "https://manishkumar66052.github.io/foodapp/",
+live: "https://mern-food-app-coral.vercel.app/",
 github: "#"
 },
 
